@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Message</h2>
+<p>Microsoft MVC3 website with razor scripting engine</p>
+<ul>
+ <li>Custom domain model</li>
+  <li>Validation with DataAnnotations classes</li>
+  <li>Views are strongly typed</li>
+  <li>Ninject DI container and bindings</li>
+  <li>LINQ to Objects manipulations</li>
+  <li>XML serialization & deserialization</li>
+  <li>Unit testing project</li>
+</ul>
+<p>This demo lacks full functionality; serving as an early glimpse. Future development effort would include:</p>
+<ul>
+    <li>Persistence to relational database, rather than an XML file</li>
+    <li>Implement Update and Delete functionality, and user list sorting</li>
+    <li>Use Moq as a mocking tool in unit tests</li>
+</ul>
+<p>Check out the <a href="@Href("~/Users/Index")">Users screen</a>.</p>

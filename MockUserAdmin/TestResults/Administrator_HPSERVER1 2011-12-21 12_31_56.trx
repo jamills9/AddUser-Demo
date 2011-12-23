@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="373658b0-e474-4819-bac6-ca5e4fd6b1c1" name="Administrator@HPSERVER1 2011-12-21 12:31:56" runUser="JIMINAUSTIN\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9107bf73-f7e4-455f-a428-d263719f4794">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="E:\sites\MockUserAdmin\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Administrator_HPSERVER1 2011-12-21 12_31_56">
+      <DeploymentItem filename="E:\sites\MockUserAdmin\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="E:\sites\MockUserAdmin\MockUserAdmin\bin\MockUserAdmin.dll" />
+      <DeploymentItem filename="E:\sites\MockUserAdmin\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="E:\sites\MockUserAdmin\packages\Ninject.2.2.1.4\lib\net40-Full\Ninject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-21T12:31:56.6449262-06:00" queuing="2011-12-21T12:31:58.6060384-06:00" start="2011-12-21T12:31:58.7960492-06:00" finish="2011-12-21T12:32:31.2639063-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="UserForm_AddUserTest" storage="e:\sites\mockuseradmin\mockuseradmin.tests\bin\debug\mockuseradmin.tests.dll" id="1c210d8d-b27c-ef40-3250-e118ebbf340f">
+      <Execution id="7d924cea-390d-40c8-80fc-3f199b55e008" />
+      <TestMethod codeBase="E:/sites/MockUserAdmin/MockUserAdmin.Tests/bin/Debug/MockUserAdmin.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockUserAdmin.Tests.UsersControllerTest, MockUserAdmin.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserForm_AddUserTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1c210d8d-b27c-ef40-3250-e118ebbf340f" executionId="7d924cea-390d-40c8-80fc-3f199b55e008" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7d924cea-390d-40c8-80fc-3f199b55e008" testId="1c210d8d-b27c-ef40-3250-e118ebbf340f" testName="UserForm_AddUserTest" computerName="HPSERVER1" duration="00:00:29.4877684" startTime="2011-12-21T12:31:58.9570585-06:00" endTime="2011-12-21T12:32:31.1158978-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d924cea-390d-40c8-80fc-3f199b55e008">
+    </UnitTestResult>
+  </Results>
+</TestRun>

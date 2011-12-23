@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c3c52545-8167-4a5d-9987-7d8b2e32da07" name="Administrator@HPSERVER1 2011-12-21 11:45:39" runUser="JIMINAUSTIN\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9107bf73-f7e4-455f-a428-d263719f4794">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_HPSERVER1 2011-12-21 11_45_39">
+      <DeploymentItem filename="E:\sites\MockUserAdmin\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="E:\sites\MockUserAdmin\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="E:\sites\MockUserAdmin\MockUserAdmin\bin\MockUserAdmin.dll" />
+      <DeploymentItem filename="E:\sites\MockUserAdmin\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="E:\sites\MockUserAdmin\packages\Ninject.2.2.1.4\lib\net40-Full\Ninject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-21T11:45:39.0540571-06:00" queuing="2011-12-21T11:45:41.4851962-06:00" start="2011-12-21T11:45:41.7842133-06:00" finish="2011-12-21T11:45:43.3733041-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="UserForm_UpdateUserTest" storage="e:\sites\mockuseradmin\mockuseradmin.tests\bin\debug\mockuseradmin.tests.dll" id="e101a8d5-df68-810e-9cd1-d5831aee727e">
+      <Execution id="a3ad30e5-b760-4227-9fc7-dda610c5b49f" />
+      <TestMethod codeBase="E:/sites/MockUserAdmin/MockUserAdmin.Tests/bin/Debug/MockUserAdmin.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockUserAdmin.Tests.UsersControllerTest, MockUserAdmin.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserForm_UpdateUserTest" />
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="e:\sites\mockuseradmin\mockuseradmin.tests\bin\debug\mockuseradmin.tests.dll" id="cd6c7909-b393-e2f2-6158-90f40d9c1f0e">
+      <Execution id="bbef2105-8d05-485a-81ad-659bbcc78e03" />
+      <TestMethod codeBase="E:/sites/MockUserAdmin/MockUserAdmin.Tests/bin/Debug/MockUserAdmin.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockUserAdmin.Tests.UsersControllerTest, MockUserAdmin.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cd6c7909-b393-e2f2-6158-90f40d9c1f0e" executionId="bbef2105-8d05-485a-81ad-659bbcc78e03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e101a8d5-df68-810e-9cd1-d5831aee727e" executionId="a3ad30e5-b760-4227-9fc7-dda610c5b49f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bbef2105-8d05-485a-81ad-659bbcc78e03" testId="cd6c7909-b393-e2f2-6158-90f40d9c1f0e" testName="IndexTest" computerName="HPSERVER1" duration="00:00:00.3432009" startTime="2011-12-21T11:45:41.8992198-06:00" endTime="2011-12-21T11:45:43.2122949-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbef2105-8d05-485a-81ad-659bbcc78e03">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at MockUserAdmin.Tests.UsersControllerTest.IndexTest() in E:\sites\MockUserAdmin\MockUserAdmin.Tests\UsersControllerTest.cs:line 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3ad30e5-b760-4227-9fc7-dda610c5b49f" testId="e101a8d5-df68-810e-9cd1-d5831aee727e" testName="UserForm_UpdateUserTest" computerName="HPSERVER1" duration="00:00:00.1113521" startTime="2011-12-21T11:45:43.2152951-06:00" endTime="2011-12-21T11:45:43.3313017-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3ad30e5-b760-4227-9fc7-dda610c5b49f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

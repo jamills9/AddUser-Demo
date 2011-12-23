@@ -1,0 +1,23 @@
+﻿@model MockUserAdmin.Models.SysUser
+
+@{
+    ViewBag.Title = "User Form";
+}
+
+<html>
+    <head>
+        <title>Add User</title>
+        <link rel="Stylesheet" href="@Href("~/Content/Site.cs")" type="text/css" />
+    </head>
+    <body>          
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary()
+                <p>First Name: @Html.TextBoxFor(x => x.FirstName)</p>
+                <p>Last Name: @Html.TextBoxFor(x => x.LastName)</p>
+                <p>Email Address: @Html.TextBoxFor(x => x.EmailAddress)</p>
+                <p>Password: @Html.TextBoxFor(x => x.Password)</p>
+                <p><input type="submit" value="Create User"  /></p>
+            }        
+    </body>
+</html>

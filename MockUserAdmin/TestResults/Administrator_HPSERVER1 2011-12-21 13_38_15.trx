@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1f2b30b8-36f7-4ceb-82d5-c4d8e2706b92" name="Administrator@HPSERVER1 2011-12-21 13:38:15" runUser="JIMINAUSTIN\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9107bf73-f7e4-455f-a428-d263719f4794">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_HPSERVER1 2011-12-21 13_38_15">
+      <DeploymentItem filename="E:\sites\MockUserAdmin\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="E:\sites\MockUserAdmin\MockUserAdmin\bin\MockUserAdmin.dll" />
+      <DeploymentItem filename="E:\sites\MockUserAdmin\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="E:\sites\MockUserAdmin\packages\Ninject.2.2.1.4\lib\net40-Full\Ninject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-21T13:38:15.8955263-06:00" queuing="2011-12-21T13:38:15.9885316-06:00" start="2011-12-21T13:38:15.9985322-06:00" finish="2011-12-21T13:38:16.5675648-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="3" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="UserForm_AddUserDuplicateEmailTest" storage="e:\sites\mockuseradmin\mockuseradmin.tests\bin\debug\mockuseradmin.tests.dll" id="eda423e3-9565-3bd4-93b3-9961a3bb640e">
+      <Execution id="05576167-5ff1-4ae2-aa95-82490220edb5" />
+      <TestMethod codeBase="E:/sites/MockUserAdmin/MockUserAdmin.Tests/bin/Debug/MockUserAdmin.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockUserAdmin.Tests.UsersControllerTest, MockUserAdmin.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserForm_AddUserDuplicateEmailTest" />
+    </UnitTest>
+    <UnitTest name="UserForm_AddUserTest" storage="e:\sites\mockuseradmin\mockuseradmin.tests\bin\debug\mockuseradmin.tests.dll" id="1c210d8d-b27c-ef40-3250-e118ebbf340f">
+      <Execution id="ae690b51-96a3-430f-a3f2-5e393b0895e8" />
+      <TestMethod codeBase="E:/sites/MockUserAdmin/MockUserAdmin.Tests/bin/Debug/MockUserAdmin.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockUserAdmin.Tests.UsersControllerTest, MockUserAdmin.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserForm_AddUserTest" />
+    </UnitTest>
+    <UnitTest name="UserForm_AddUserMissingFieldTest" storage="e:\sites\mockuseradmin\mockuseradmin.tests\bin\debug\mockuseradmin.tests.dll" id="e2f2b102-9fdd-e18d-9c4e-96ae418b91cb">
+      <Execution id="62dbc001-d00e-4cc8-bb24-316549a18ac5" />
+      <TestMethod codeBase="E:/sites/MockUserAdmin/MockUserAdmin.Tests/bin/Debug/MockUserAdmin.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockUserAdmin.Tests.UsersControllerTest, MockUserAdmin.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserForm_AddUserMissingFieldTest" />
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="e:\sites\mockuseradmin\mockuseradmin.tests\bin\debug\mockuseradmin.tests.dll" id="cd6c7909-b393-e2f2-6158-90f40d9c1f0e">
+      <Execution id="95f3bd7f-4bd9-4345-bf1e-42405948171a" />
+      <TestMethod codeBase="E:/sites/MockUserAdmin/MockUserAdmin.Tests/bin/Debug/MockUserAdmin.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockUserAdmin.Tests.UsersControllerTest, MockUserAdmin.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+    </UnitTest>
+    <UnitTest name="UserForm_AddUserBadEmailTest" storage="e:\sites\mockuseradmin\mockuseradmin.tests\bin\debug\mockuseradmin.tests.dll" id="9fe2f82b-8f7b-ff16-4f64-4a0e936d33a0">
+      <Execution id="a4ebf191-5d69-4c37-8370-acd0293c57de" />
+      <TestMethod codeBase="E:/sites/MockUserAdmin/MockUserAdmin.Tests/bin/Debug/MockUserAdmin.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockUserAdmin.Tests.UsersControllerTest, MockUserAdmin.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserForm_AddUserBadEmailTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cd6c7909-b393-e2f2-6158-90f40d9c1f0e" executionId="95f3bd7f-4bd9-4345-bf1e-42405948171a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c210d8d-b27c-ef40-3250-e118ebbf340f" executionId="ae690b51-96a3-430f-a3f2-5e393b0895e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fe2f82b-8f7b-ff16-4f64-4a0e936d33a0" executionId="a4ebf191-5d69-4c37-8370-acd0293c57de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2f2b102-9fdd-e18d-9c4e-96ae418b91cb" executionId="62dbc001-d00e-4cc8-bb24-316549a18ac5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eda423e3-9565-3bd4-93b3-9961a3bb640e" executionId="05576167-5ff1-4ae2-aa95-82490220edb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="95f3bd7f-4bd9-4345-bf1e-42405948171a" testId="cd6c7909-b393-e2f2-6158-90f40d9c1f0e" testName="IndexTest" computerName="HPSERVER1" duration="00:00:00.0384667" startTime="2011-12-21T13:38:16.0025324-06:00" endTime="2011-12-21T13:38:16.3445520-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95f3bd7f-4bd9-4345-bf1e-42405948171a">
+    </UnitTestResult>
+    <UnitTestResult executionId="ae690b51-96a3-430f-a3f2-5e393b0895e8" testId="1c210d8d-b27c-ef40-3250-e118ebbf340f" testName="UserForm_AddUserTest" computerName="HPSERVER1" duration="00:00:00.0051884" startTime="2011-12-21T13:38:16.3465521-06:00" endTime="2011-12-21T13:38:16.3545526-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae690b51-96a3-430f-a3f2-5e393b0895e8">
+    </UnitTestResult>
+    <UnitTestResult executionId="a4ebf191-5d69-4c37-8370-acd0293c57de" testId="9fe2f82b-8f7b-ff16-4f64-4a0e936d33a0" testName="UserForm_AddUserBadEmailTest" computerName="HPSERVER1" duration="00:00:00.1082826" startTime="2011-12-21T13:38:16.3565527-06:00" endTime="2011-12-21T13:38:16.4685591-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4ebf191-5d69-4c37-8370-acd0293c57de">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at MockUserAdmin.Tests.UsersControllerTest.UserForm_AddUserBadEmailTest() in E:\sites\MockUserAdmin\MockUserAdmin.Tests\UsersControllerTest.cs:line 133
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62dbc001-d00e-4cc8-bb24-316549a18ac5" testId="e2f2b102-9fdd-e18d-9c4e-96ae418b91cb" testName="UserForm_AddUserMissingFieldTest" computerName="HPSERVER1" duration="00:00:00.0029248" startTime="2011-12-21T13:38:16.4725593-06:00" endTime="2011-12-21T13:38:16.4895603-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62dbc001-d00e-4cc8-bb24-316549a18ac5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at MockUserAdmin.Tests.UsersControllerTest.UserForm_AddUserMissingFieldTest() in E:\sites\MockUserAdmin\MockUserAdmin.Tests\UsersControllerTest.cs:line 158
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="05576167-5ff1-4ae2-aa95-82490220edb5" testId="eda423e3-9565-3bd4-93b3-9961a3bb640e" testName="UserForm_AddUserDuplicateEmailTest" computerName="HPSERVER1" duration="00:00:00.0481434" startTime="2011-12-21T13:38:16.4925605-06:00" endTime="2011-12-21T13:38:16.5455635-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05576167-5ff1-4ae2-aa95-82490220edb5">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,16 @@
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\MockUserAdmin.Tests.dll
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\MockUserAdmin.Tests.pdb
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\EntityFramework.dll
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\Iesi.Collections.dll
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\MockUserAdmin.dll
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\Ninject.dll
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\MockUserAdmin.pdb
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\EntityFramework.xml
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\Iesi.Collections.xml
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\Ninject.pdb
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\Ninject.xml
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\MockUserAdmin_Accessor.dll
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\bin\Debug\MockUserAdmin_Accessor.pdb
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\obj\Debug\ResolveAssemblyReference.cache
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\obj\Debug\MockUserAdmin.Tests.dll
+E:\sites\MockUserAdmin\MockUserAdmin.Tests\obj\Debug\MockUserAdmin.Tests.pdb

@@ -1,0 +1,12 @@
+E:\sites\MockUserAdmin\MockUserAdmin\bin\MockUserAdmin.dll
+E:\sites\MockUserAdmin\MockUserAdmin\bin\MockUserAdmin.pdb
+E:\sites\MockUserAdmin\MockUserAdmin\bin\EntityFramework.dll
+E:\sites\MockUserAdmin\MockUserAdmin\bin\Iesi.Collections.dll
+E:\sites\MockUserAdmin\MockUserAdmin\bin\Ninject.dll
+E:\sites\MockUserAdmin\MockUserAdmin\bin\EntityFramework.xml
+E:\sites\MockUserAdmin\MockUserAdmin\bin\Iesi.Collections.xml
+E:\sites\MockUserAdmin\MockUserAdmin\bin\Ninject.pdb
+E:\sites\MockUserAdmin\MockUserAdmin\bin\Ninject.xml
+E:\sites\MockUserAdmin\MockUserAdmin\obj\Debug\ResolveAssemblyReference.cache
+E:\sites\MockUserAdmin\MockUserAdmin\obj\Debug\MockUserAdmin.dll
+E:\sites\MockUserAdmin\MockUserAdmin\obj\Debug\MockUserAdmin.pdb

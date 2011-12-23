@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Users>
+	<User EmailAddress="joe@abc.com" Password="joe" FirstName="Joe" LastName="Mackenzie" />
+	<User EmailAddress="jeffrey.smith@westwood.com" Password="jeffrey" FirstName="Jeff" LastName="Small" />
+	<User EmailAddress="susan@southwood.com" Password="susan" FirstName="Susan" LastName="Snow" />
+</Users>
